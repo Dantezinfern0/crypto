@@ -9,4 +9,25 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: lightseagreen;
+}
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-style: inset;
+  border-width: 10px;
+  border-color: brown;
+  margin: 0;
+}
+.title {
+  color: blue;
+  font-size: 3rem;
+}
+.title-bar {
+  text-align: center;
+  background-color: black;
+  color: whitesmoke;
+  margin: 0;
+  padding: 2rem;
 }
