@@ -5,8 +5,7 @@ class DataTable extends Component {
     return (
       <div class="content">
         <p class="title">{this.props.title}</p>
-        <p>________________________________</p>
-        <p>{this.props.rank}</p>
+        <img src={ 'https://s2.coinmarketcap.com/static/img/coins/64x64/' + this.props.rank + '.png' }/>
         <p>________________________________</p>
         <p>Total Supply: {this.props.supply}</p>
         <p>________________________________</p>
