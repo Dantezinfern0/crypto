@@ -14,11 +14,14 @@ body {
 .content {
   display: flex;
   align-items: center;
+  align-content: center;
+  justify-content: center;
   flex-direction: column;
   border-style: inset;
   border-width: 10px;
   border-color: brown;
-  margin: 0;
+  border-radius: 5px;
+  margin: 0 30% 2rem 30%;
 }
 .title {
   color: blue;
